@@ -19,17 +19,17 @@
       },
       "OWNER": {
         "description": " يوزر المطور بدون @.",
-        "value": "",
+        "value": "SI_I_I",
         "required": true
       },
       "OWNER_USER": {
         "description": "يوزر المطور .",
-        "value": "",
+        "value": "@SI_I_I",
         "required": true
       },
       "OWNER_ID": {
         "description": " ايدي المطور",
-        "value": "",
+        "value": "5092041118",
         "required": true
       },
       "STRING_SESSION": {
@@ -44,23 +44,23 @@
       },
       "HEROKU_APP_NAME": {
         "description": "اول اسم كتبتو فوق",
-        "value": "",
+        "value": "black-music",
         "required": false
       },
       "LOGGER_ID": {
         "description": "ايدي الجروب وضيف قبلو ( -100 )",
-        "value": "",
+        "value": "-1002006392845",
         "required": true
       }, 
       "SUPPORT_CHANNEL": {
             "description": "لينك قناتك علي التلجرام ان وجد",
             "required": false,
-            "value": "https://t.me/el3n82"
+            "value": "https://t.me/S1_I_I"
       },
       "SUPPORT_CHAT": {
             "description": "لينك جروبك علي التلجرام ان وجد",
             "required": false,
-            "value": "https://t.me/B_O_M_W"
+            "value": "https://t.me/BIACKB0T"
       }
     },
     "buildpacks": [
