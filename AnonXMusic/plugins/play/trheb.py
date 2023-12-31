@@ -8,11 +8,16 @@ from AnonXMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, ap
 from pyrogram import filters
 
 
-@app.on_message(filters.new_chat_members)
-async def wel__come(client: Client, message: Message):
-	chatid= message.chat.id
-	await client.send_message(text=f"- نورت ياا حلو 🥹♥ {message.from_user.mention}\n│ \n╯ في {message.chat.title}",chat_id=chatid)
-	
+chat_id = -1001967964536
+
+welcome_photo = "path_to_your_welcome_photo.jpg"
+
+
+@app.on_message(filters.new_chat_members & filters.group)
+async def welcome_new_members(client, message):
+    for member in message.new_chat_members:
+        await message.reply_photo(welcome_photo, f"نورت الجروب ي قمر {member.first_name}\nاحترم الادمن ولا تسئ اللفط")
+
 @app.on_message(filters.left_chat_member)
 async def good_bye(client: Client, message: Message):
 	chatid= message.chat.id
