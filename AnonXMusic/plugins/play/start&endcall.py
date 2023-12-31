@@ -3,6 +3,7 @@ from pyrogram import Client, filters
 from strings import get_command
 from pyrogram.types import *
 from AnonXMusic import app
+from pyrogram.enums import ParseMode
 
 
 
@@ -18,7 +19,7 @@ async def fuckoff(client, message):
            x = 0
            for user in message.video_chat_members_invited.users:
              try:
-               text += f"\n🕸 [{user.first_name}](tg://user?id={user.id})"
+               text += f"\n🕸 {parse_mode = ParseMode.MARKDOWN}"
                x += 1
              except Exception:
                pass
