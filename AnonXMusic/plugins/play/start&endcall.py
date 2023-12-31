@@ -19,7 +19,7 @@ async def fuckoff(client, message):
            x = 0
            for user in message.video_chat_members_invited.users:
              try:
-              text = parse_mode =(f"{ ParseMode.MARKDOWN }")
+              text += f"\n◈ [{user.first_name}](tg://user?id={user.id})"
               x = 1
              except Exception:
                pass
