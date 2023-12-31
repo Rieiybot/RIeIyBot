@@ -76,7 +76,7 @@ async def huhh(client: Client, message: Message):
 
 
 @app.on_message(
-    filters.command(["شيكو","شيكوو","المطور شيكو","shikoo","shiko"], "")
+    filters.command(["شيكو","شيكوو","المطور شيكو","shikoo","shiko","المطور","مطور","مطور البوت"], "")
     & filters.group
 )
 async def yas(client, message):
