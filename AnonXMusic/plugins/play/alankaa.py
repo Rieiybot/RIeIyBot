@@ -83,7 +83,7 @@ async def yas(client, message):
     usr = await client.get_chat("si_i_i")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n‍<b>🏴‍☠ ¦ ᴅᴇᴠ :</b> {name}\n<b>🕷 ¦ ᴜѕᴇʀ :</b> @{usr.username}\n<b>父 ¦ ɪᴅ :</b> <code>{usr.id}</code>\n<b>🖤 ¦ ʙɪᴏ :</b> {usr.bio}\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱", 
+    await message.reply_photo(photo,       caption=f"⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n‍<b>╭⦿ᚐᴅᴇᴠ :</b> {name}\n<b>╰⦿ᚐᴜѕᴇʀ :</b> @{usr.username}\n<b>╭⦿ᚐɪᴅ :</b> <code>{usr.id}</code>\n<b>╰⦿ᚐʙɪᴏ :</b> {usr.bio}\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
