@@ -14,8 +14,8 @@ name = "بلاك"
 @app.on_message(filters.command(["تعيين اسم البوت"], "") & filters.group & SUDOERS, group=7113)
 async def set_bot_name(client, message):
     global name
-    ask = await app.ask(message.chat.id, "ارسل الاسم الجديد", timeout=300)
-    name = ask.text
+    ask = await app.Anony(message.chat.id, "ارسل الاسم الجديد", timeout=300)
+    name = Anony.text
     await message.reply_text("تم تعيين الاسم بنجاح")
 
 caesar_responses = [
