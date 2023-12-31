@@ -15,11 +15,11 @@ async def brah2(client, message):
        await message.reply("• قفله ف دماغك يبعيد 🙄🖤")
 @app.on_message(filters.video_chat_members_invited)
 async def fuckoff(client, message):
-           text = f"• الراجل دا عايزك ف الكول ← {message.from_user.mention}"
+           text = f"• الراجل دا عايزك ف الكول ← {message.from_user.mention}\n"
            x = 0
            for user in message.video_chat_members_invited.users:
              try:
-               text += f"\n🕸 {parse_mode = ParseMode.MARKDOWN}"
+               text += parse_mode = ParseMode.MARKDOWN
                x += 1
              except Exception:
                pass
