@@ -1,0 +1,78 @@
+{
+    "name": "𖥻 ִ ۫ 𝗙𝗼𝗭𝘇﹗𝗕𝗼𝗧 ֊ꗃ ִ࣪",
+    "description": "https://t.me/EL3N82 𖤍 سورس العنقاء ميوزك",
+    "logo": "https://telegra.ph/file/b6e479078d193163d525d.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "AnonX",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "BOT_TOKEN": {
+        "description": "توكن البوت https://t.me/Botfather",
+        "value": "",
+        "required": true
+      },
+      "OWNER": {
+        "description": " يوزر المطور بدون @.",
+        "value": "",
+        "required": true
+      },
+      "OWNER_USER": {
+        "description": "يوزر المطور .",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": " ايدي المطور",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "جلسه بايروجرام 2.",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "مفتاح اب كي هراكو",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "اول اسم كتبتو فوق",
+        "value": "",
+        "required": false
+      },
+      "LOGGER_ID": {
+        "description": "ايدي الجروب وضيف قبلو ( -100 )",
+        "value": "",
+        "required": true
+      }, 
+      "SUPPORT_CHANNEL": {
+            "description": "لينك قناتك علي التلجرام ان وجد",
+            "required": false,
+            "value": "https://t.me/el3n82"
+      },
+      "SUPPORT_CHAT": {
+            "description": "لينك جروبك علي التلجرام ان وجد",
+            "required": false,
+            "value": "https://t.me/B_O_M_W"
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
