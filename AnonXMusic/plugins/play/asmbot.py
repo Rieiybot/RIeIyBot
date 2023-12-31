@@ -11,7 +11,7 @@ botname = {}
 
 name = "بلاك"
 
-@app.on_message(filters.regex(["تعيين اسم البوت"], "")& filters.private & SUDOERS, group=7113)
+@app.on_message(filters.group(["تعيين اسم البوت"], "")& filters.group & SUDOERS, group=7113)
 async def set_bot_name(client, message):
     global name
     ask = await app.ask(message.chat.id, "ارسل الاسم الجديد", timeout=300)
