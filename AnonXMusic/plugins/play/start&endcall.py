@@ -19,7 +19,7 @@ async def fuckoff(client, message):
            x = 0
            for user in message.video_chat_members_invited.users:
              try:
-               text += parse_mode = ParseMode.MARKDOWN
+               parse_mode = ParseMode.MARKDOWN
                x += 1
              except Exception:
                pass
