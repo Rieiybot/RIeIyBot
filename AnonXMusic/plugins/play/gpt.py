@@ -41,7 +41,7 @@ def reply_gpt(client, message):
         message_id = message.reply_to_message.message_id
     else:
         message_id = None
-    client.send_message(chat_id=chat_id, text=reply_text + "\n\n\n⊰•━━﴾ 𖤍 𝗘𝗹𝗔𝗡𝗞𝗔𝗔 𖤍 ﴿━━•⊱\nللاستخدام مره اخري قم بستخدام الامر \n /gpt + السؤال", reply_to_message_id=message_id)
+    client.send_message(chat_id=chat_id, text=reply_text + "\n\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\nللاستخدام مره اخري قم بستخدام الامر \n /gpt + السؤال", reply_to_message_id=message_id)
 
 
 @app.on_message(filters.command("gpt"))
