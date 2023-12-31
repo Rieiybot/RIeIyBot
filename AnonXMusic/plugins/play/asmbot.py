@@ -11,7 +11,7 @@ botname = {}
 
 name = "بلاك"
 
-@app.on_message(filters.command(["تعيين اسم البوت"],"")& filters.private & SUDOERS, group=7113)
+@app.on_message(filters.regex("تعيين اسم البوت")& filters.private & SUDOERS, group=7113)
 async def set_bot_name(client, message):
     global name
     ask = await app.ask(message.chat.id, "ارسل الاسم الجديد", timeout=300)
@@ -41,11 +41,12 @@ async def caesar_bot(client, message):
     bot_username = (await app.get_me()).username
     bar = random.choice(caesar_responses).format(name=name)
     keyboard = InlineKeyboardMarkup([
-        [InlineKeyboardButton("خدني لجروبك والنبي 🥺♥", url=f"https://t.me/{bot_username}?startgroup=True")]
+        [InlineKeyboardButton("خدني لجروبك والنبي🥺♥", url=f"https://t.me/{bot_username}?startgroup=True")]
     ])
 
     await message.reply_text(
-        text=f"<b>{bar}</b>",
+        text=f"**[{bar}](https://t.me/{bot_username}?startgroup=True)**",
         disable_web_page_preview=True,
         reply_markup=keyboard
-  )
+    )
+    
