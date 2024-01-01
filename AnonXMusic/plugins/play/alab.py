@@ -7,7 +7,7 @@ from AnonXMusic import app
 import re
 import sys
 
-GAME_MESSAGE = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n\n⦿ ¦   مرحبا بك عزيزي:\n\n⦿ ¦  في قسم العاب العنقاء\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱"
+GAME_MESSAGE = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n╮⦿ مرحبا بك عزيزي: {message.from_user.mention} \n╯⎋  في قسم العاب بلاك بوت\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱"
 GAME_BUTTONS = [
     [ 
         InlineKeyboardButton ('⦿ ¦ العاب 3D ¦ ⦿', callback_data= 'GAME1'),
@@ -315,7 +315,7 @@ async def zohary(client: Client, message: Message):
 async def callback_query(client, CallbackQuery):
           if CallbackQuery.data == "GAME1":
             
-             GAME1_MESSAGE = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\nمرحبا بك في قسم العاب العنقاء 3D\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱"
+             GAME1_MESSAGE = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n╮⦿ مرحبا بك في قسم العاب 3D\n╯⎋  اختر ما تشاء من الازرار بالاسفل\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱"
 
              GAME1_BUTTONS = [
                  [
@@ -359,7 +359,7 @@ async def callback_query(client, CallbackQuery):
               )
           elif CallbackQuery.data == "GAME":
                
-               RETURN_GAME = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n\n⦿ ¦  مرحبا بك في قسم العاب العنقاء\n\n⦿ ¦  اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱" 
+               RETURN_GAME = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n╮⦿ مرحبا بك في قسم العاب بلاك بوت\n╯⎋ اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱" 
 
                RETURN_BUTTON = [
                     [ 
