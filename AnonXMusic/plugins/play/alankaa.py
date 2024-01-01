@@ -85,7 +85,7 @@ async def huhh(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "بوت جلسات", url=f"https://t.me/glsatbot"),
+                        "بوت استخراج جلسات 📟", url=f"https://t.me/glsatbot"),
                 ],[
                 
                     InlineKeyboardButton(
