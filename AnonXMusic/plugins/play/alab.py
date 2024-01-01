@@ -10,8 +10,8 @@ import sys
 GAME_MESSAGE = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n\n⦿ ¦   مرحبا بك عزيزي:\n\n⦿ ¦  في قسم العاب العنقاء\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱"
 GAME_BUTTONS = [
     [ 
-        InlineKeyboardButton ('\n⦿ ¦  العاب 3D', callback_data= 'GAME1'),
-        InlineKeyboardButton ('العنقاء العنقاء', callback_data= 'GAME2'),
+        InlineKeyboardButton ('⦿ ¦ العاب 3D ¦ ⦿', callback_data= 'GAME1'),
+        InlineKeyboardButton ('⦿ ¦ العاب بلاك ¦ ⦿', callback_data= 'GAME2'),
         ],[
         InlineKeyboardButton ('父 𝗕𝗟𝗔𝗖𝗞 ࿈ 𝗕𝗢𝗧 父', url =f"https://t.me/BIACKB0T")              
                  ],[
@@ -363,8 +363,8 @@ async def callback_query(client, CallbackQuery):
 
                RETURN_BUTTON = [
                     [ 
-                      InlineKeyboardButton ('\n⦿ ¦  العاب 3D', callback_data= 'GAME1'),
-                      InlineKeyboardButton ('\n⦿ ¦  العاب العنقاء', callback_data= 'GAME2')
+                      InlineKeyboardButton ('⦿ ¦ العاب 3D ¦ ⦿', callback_data= 'GAME1'),
+                      InlineKeyboardButton ('⦿ ¦ العاب بلاك ¦ ⦿', callback_data= 'GAME2')
                       ],[
         InlineKeyboardButton ('父 𝗕𝗟𝗔𝗖𝗞 ࿈ 𝗕𝗢𝗧 父', url =f"https://t.me/BIACKB0T")              
                  ],[
@@ -379,7 +379,7 @@ async def callback_query(client, CallbackQuery):
                     )
           elif CallbackQuery.data == "GAME2":
                
-               SOURCE_GAME = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n⦿ ¦  العاب العنقاء\n⦿ ¦  كت\n⦿ ¦  تويت\n⦿ ¦  اسال\n⦿ ¦  صراحه \n\n⦿ ¦  لو خيروك \n⦿ ¦  انصحني \n⦿ ¦  نكته \n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱." 
+               SOURCE_GAME = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n⦿ ¦  العاب العنقاء\n⦿ ¦  كت\n⦿ ¦  تويت\n⦿ ¦  اسال\n⦿ ¦  صراحه \n⦿ ¦  لو خيروك \n⦿ ¦  انصحني \n⦿ ¦  نكته \n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱." 
 
                SORGAM_BUTTON = [
                     [ 
