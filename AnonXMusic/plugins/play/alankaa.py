@@ -73,6 +73,32 @@ async def huhh(client: Client, message: Message):
 
 
 
+@app.on_message(
+    filters.command(["بوت جلسات","جلسه","جلسة بايرو","جلسة بايروجرام","بايروجرام","تليثون","تيرمكس","جلسة تليثوت","جلسة تيريمكس","استخراج جلسه","بوت جلسه","بوت جلسة"], "")
+    & filters.group
+)
+async def huhh(client: Client, message: Message):
+    await message.reply_photo(
+        photo=f"https://t.me/glsatbot",
+        caption=f"""⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\nمرحبا بك عزيزي {message.from_user.mention} في قسم مطورين العنقاء ميوزك\n\nللتحدث مع مطورين اضغط علي الازرار بالاسفل👇\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "بوت جلسات", url=f"https://t.me/glsatbot"),
+                ],[
+                
+                    InlineKeyboardButton(
+                        "父 𝗕𝗟𝗔𝗖𝗞 ࿈ 𝗕𝗢𝗧 父", url=f"https://t.me/BIACKB0T"),
+                ],
+
+            ]
+
+        ),
+
+    )
+
+
 
 
 @app.on_message(
