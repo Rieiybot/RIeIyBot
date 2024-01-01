@@ -21,7 +21,7 @@ from random import  choice, randint
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,90)
     url = f"https://t.me/gukygn/{rl}"
-    await client.send_voice(message.chat.id,url,caption="🐉 ¦ تـم اختيـار الاغـنـية لـك {message.from_user.mention()}",
+    await client.send_voice(message.chat.id,url,caption="🎸 ¦ تـم اختيـار الاغـنـية لـك {message.from_user.mention()}",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -37,7 +37,7 @@ async def ihd(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,50)
     url = f"https://t.me/vnnkli/{rl}"
-    await client.send_photo(message.chat.id,url,caption="""🐉 ¦ تـم اختيـار صوره لـك """,
+    await client.send_photo(message.chat.id,url,caption="""🎸 ¦ تـم اختيـار صوره لـك """,
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -53,7 +53,7 @@ async def ihd(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,90)
     url = f"https://t.me/LoreBots7/{rl}"
-    await client.send_photo(message.chat.id,url,caption="""🐉 ¦ تـم اختيـار انمي لـك""",
+    await client.send_photo(message.chat.id,url,caption="""🎸¦ تـم اختيـار انمي لـك""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -69,7 +69,7 @@ async def ihd(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,90)
     url = f"https://t.me/GifWaTaN/{rl}"
-    await client.send_animation(message.chat.id,url,caption="🐉 ¦ تـم اختيـار ملصق لـك",
+    await client.send_animation(message.chat.id,url,caption="🎸 ¦ تـم اختيـار ملصق لـك",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -84,7 +84,7 @@ async def ihd(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,90)
     url = f"https://t.me/LoreBots9/{rl}"
-    await client.send_photo(message.chat.id,url,caption="🐉 ¦ تـم اختيـار اقتباس لـك",
+    await client.send_photo(message.chat.id,url,caption="🎸 ¦ تـم اختيـار اقتباس لـك",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -99,7 +99,7 @@ async def ihd(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,90)
     url = f"https://t.me/flflfldld/{rl}"
-    await client.send_photo(message.chat.id,url,caption="🐉 ¦ تـم اختيـار هيدرات لـك",
+    await client.send_photo(message.chat.id,url,caption="🎸 ¦ تـم اختيـار هيدرات لـك",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -114,7 +114,7 @@ async def ihd(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,90)
     url = f"https://t.me/vvyuol/{rl}"
-    await client.send_photo(message.chat.id,url,caption="🐉 ¦ تـم اختيـار صوره لـك",
+    await client.send_photo(message.chat.id,url,caption="🎸 ¦ تـم اختيـار صوره لـك",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -129,7 +129,7 @@ async def ihd(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,90)
     url = f"https://t.me/vgbmm/{rl}"
-    await client.send_photo(message.chat.id,url,caption="🐉 ¦ تـم اختيـار صوره لـك",
+    await client.send_photo(message.chat.id,url,caption="🎸 ¦ تـم اختيـار صوره لـك",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -144,7 +144,7 @@ async def ihd(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rl = random.randint(1,90)
     url = f"https://t.me/opuml/{rl}"
-    await client.send_voice(message.chat.id,url,caption="🐉 ¦ تـم اختيـار ايـه قرآنيه لـك",
+    await client.send_voice(message.chat.id,url,caption="🎸 ¦ تـم اختيـار ايـه قرآنيه لـك",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -174,7 +174,7 @@ async def ihd(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rl = random.randint(1,50)
     url = f"https://t.me/gyigkk/{rl}"
-    await client.send_audio(message.chat.id,url,caption="🐉 ¦ تـم اختيـار فيلم لـك",
+    await client.send_audio(message.chat.id,url,caption="🎸 ¦ تـم اختيـار فيلم لـك",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -189,7 +189,7 @@ async def ihd(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rl = random.randint(1,50)
     url = f"https://t.me/yoipopl/{rl}"
-    await client.send_audio(message.chat.id,url,caption="🐉 ¦ تـم اختيـار استوري لـك",
+    await client.send_audio(message.chat.id,url,caption="🎸 ¦ تـم اختيـار استوري لـك",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
