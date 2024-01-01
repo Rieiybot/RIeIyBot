@@ -20,7 +20,7 @@ from random import  choice, randint
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://t.me/BIACKB0T",
-        caption=f"""⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\nمرحبا بك عزيزي {message.from_user.mention} في قسم سورس العنقاء \n\nالقنوات التابعه للسورس بالازرار بالاسفل\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱""",
+        caption=f"""⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\nمرحبا بك عزيزي {message.from_user.mention} في قسم بلاگ بوت\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
