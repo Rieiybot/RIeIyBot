@@ -7,7 +7,7 @@ from AnonXMusic import app
 import re
 import sys
 
-GAME_MESSAGE = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n╮⦿ مرحبا بك عزيزي: {message.from_user.mention} \n╯⎋  في قسم العاب بلاك بوت\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱"
+GAME_MESSAGE = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n╮⦿ مرحبا بك عزيزي \n╯⎋  في قسم العاب بلاك بوت\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱"
 GAME_BUTTONS = [
     [ 
         InlineKeyboardButton ('⦿ ¦ العاب 3D ¦ ⦿', callback_data= 'GAME1'),
