@@ -315,7 +315,7 @@ async def zohary(client: Client, message: Message):
 async def callback_query(client, CallbackQuery):
           if CallbackQuery.data == "GAME1":
             
-             GAME1_MESSAGE = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n╮⦿ مرحبا بك في قسم العاب 3D\n╯⎋  اختر ما تشاء من الازرار بالاسفل\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱"
+             GAME1_MESSAGE = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n╮⦿ مرحبا بك في قسم العاب 3D\n╯⎋ اختر ما تشاء من الازرار بالاسفل\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱"
 
              GAME1_BUTTONS = [
                  [
@@ -379,7 +379,7 @@ async def callback_query(client, CallbackQuery):
                     )
           elif CallbackQuery.data == "GAME2":
                
-               SOURCE_GAME = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n⦿ ¦  العاب العنقاء\n⦿ ¦  كت\n⦿ ¦  تويت\n⦿ ¦  اسال\n⦿ ¦  صراحه \n⦿ ¦  لو خيروك \n⦿ ¦  انصحني \n⦿ ¦  نكته \n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱." 
+               SOURCE_GAME = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n╮⦿ العاب بلاك بوت\n│⎋ كت\n│⎋ تويت\n│⎋ اسال\n│⎋ صراحه \n│⎋ لو خيروك \n│⎋ انصحني \n╯⎋ نكته \n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱" 
 
                SORGAM_BUTTON = [
                     [ 
