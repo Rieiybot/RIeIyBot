@@ -20,7 +20,7 @@ async def fuckoff(client: Client, message):
     x = 0
     for user in m.video_chat_members_invited.users:
         try:
-            text += f"♪ بدعوة -> {user.mention} .\n♪ إلي المحادثة المرئية ."
+            text += f"♪ بدعوة -> {user.first_name} .\n♪ إلي المحادثة المرئية ."
             x += 1
         except Exception:
             pass
