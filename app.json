@@ -16,6 +16,7 @@
         "description": "توكن البوت https://t.me/Botfather",
         "value": "6887200087:AAHH6kTjNfc_9IZJj_6oVW9ftgZWIf0mGDY",
         "required": true
+      },
       "OWNER_ID": {
         "description": " ايدي المطور",
         "value": "5092041118",
