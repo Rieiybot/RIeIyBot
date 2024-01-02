@@ -1,7 +1,7 @@
 {
     "name": "𝗕𝗹𝗮𝗖𝗸 𝗕𝗼𝗧",
-    "description": "https://t.me/EL3N82 𖤍 سورس العنقاء ميوزك",
-    "logo": "https://telegra.ph/file/b6e479078d193163d525d.jpg",
+    "description": "تنصيب بلاك بوت",
+    "logo": "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -13,35 +13,36 @@
     ],
     "env": {
       "BOT_TOKEN": {
-        "description": "توكن البوت https://t.me/Botfather",
+        "description": "توكن البوت",
         "value": "6887200087:AAHH6kTjNfc_9IZJj_6oVW9ftgZWIf0mGDY",
         "required": true
       },
       "OWNER_ID": {
-        "description": " ايدي المطور",
+        "description": "اي دي المطور",
         "value": "5092041118",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "جلسه بايروجرام 2.",
+        "description": "جلسة بايرو 2",
         "value": "BADOY_EAq1xwDNU4dpLILj4r8KB_ZH5xgnjVJ6tBhGWGOZfVQ2B91sB1nCUNCPTDUUB9l2g51olKrHIt2qSgDkp0q3mZJGZbbbDDknMkl8q5dIW5gsdpWj8nON9YVmzvoGK7Obxd1uKpxo7Tcs7K-g-fpzBOp8ejrhBBtlZwFxXLaQDfG8g_utqTx1dfxirbkHLwrS1tMzk1ivE7Rkb4dRku5LBfOXKt7EHWwkk68oHvvIfj62c7CIYbqpLB9oorNRLTiWNNwH8TMki7DsaBDEM8WV9i10RYj00CYPyjtb8awNiIyMgPioQOGIrpA48wbOU-Rga1pR_GbXXljWfXIhndRtEMWgAAAAGPeAVFAA",
         "required": true
       },
       "HEROKU_API_KEY": {
-        "description": "مفتاح اب كي هراكو",
+        "description": "Your Heroku account's API key",
         "value": "",
         "required": false
       },
       "HEROKU_APP_NAME": {
-        "description": "اول اسم كتبتو فوق",
+        "description": "Your heroku app name",
         "value": "",
         "required": false
       },
       "LOGGER_ID": {
-        "description": "ايدي الجروب وضيف قبلو ( -100 )",
+        "description": "اي دي جروب التجزين",
         "value": "-1002051373352",
         "required": true
-      }, 
+      }
+    },
     "buildpacks": [
           {
               "url": "heroku/python"
