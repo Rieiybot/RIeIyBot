@@ -6,7 +6,6 @@ from AnonXMusic import app
 from pyrogram.enums import ParseMode
 
 
-
 @Client.on_message(filters.video_chat_started)
 async def brah(client: Client, message):
     await message.reply("**♪ تم بدا المحادثه الصوتيه 💎 .**")
@@ -29,4 +28,3 @@ async def fuckoff(client: Client, message):
         await m.reply(f"**{text}**", reply_to_message_id=m.message_id)
     except:
         pass
-
