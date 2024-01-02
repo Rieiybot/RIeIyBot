@@ -6,21 +6,21 @@ from AnonXMusic import app
 from pyrogram.enums import ParseMode
 
 
-@Client.on_message(filters.video_chat_started)
+@app.on_message(filters.video_chat_started)
 async def brah(client: Client, message):
-    await message.reply("**♪ تم بدا المحادثه الصوتيه 💎 .**")
+    await message.reply("<b>عـندي بـرد مش هغني 🥹</b>")
 
-@Client.on_message(filters.video_chat_ended)
+@app.on_message(filters.video_chat_ended)
 async def brah2(client: Client, message):
-    await message.reply("**♪ تم انهاء المحادثه الصوتيه 💎 .**")
+    await message.reply("<b>قفله فدماغك 🥲</b>")
 
-@Client.on_message(filters.video_chat_members_invited)
+@app.on_message(filters.video_chat_ended)
 async def fuckoff(client: Client, message):
-    text = f"♪ قام : {message.from_user.mention} 💎 .\n"
+    text = f"♪ قام : {message.from_user.mention}.\n"
     x = 0
     for user in m.video_chat_members_invited.users:
         try:
-            text += f"♪ بدعوة -> {user.mention} 💎 .\n♪ إلي المحادثة المرئية 💎 ."
+            text += f"♪ بدعوة -> {user.mention} .\n♪ إلي المحادثة المرئية ."
             x += 1
         except Exception:
             pass
