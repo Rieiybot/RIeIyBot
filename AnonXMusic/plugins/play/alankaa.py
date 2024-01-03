@@ -14,7 +14,7 @@ from random import  choice, randint
 
                 
 @app.on_message(
-    filters.command(["يا سورس ","سورس","السورس","بلاك","بلاك بوت"], "")
+    filters.command(["يا سورس ","سورس","السورس","بلاك بوت"], "")
     & filters.group
 )
 async def huhh(client: Client, message: Message):
