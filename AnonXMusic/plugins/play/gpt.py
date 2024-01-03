@@ -34,7 +34,7 @@ def gpt(text) -> str:
         return None
 
 def reply_gpt(client, message):
-    text = message.text.split("/gpt ")[1]
+    text = message.text.split("/gpt ","بلاك")[1]
     reply_text = gpt(text)
     chat_id = message.chat.id
     if message.reply_to_message is not None:
@@ -44,7 +44,7 @@ def reply_gpt(client, message):
     client.send_message(chat_id=chat_id, text=reply_text + "\n\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\nللاستخدام مره اخري قم بستخدام الامر \n /gpt + السؤال", reply_to_message_id=message_id)
 
 
-@app.on_message(filters.command("gpt"))
+@app.on_message(filters.command(["gpt","بلاك"], ""))
 def reply(client, message):
-    message.reply_text("استني بكتب ....")
+    message.reply_text("استني بكتب ✍🏼....")
     reply_gpt(client, message)
