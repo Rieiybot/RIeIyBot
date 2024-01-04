@@ -46,7 +46,7 @@ async def iddd(client, message):
     usr = await client.get_chat(message.from_user.id)
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"""╭⦿ᚐ𝙽𝙰𝙼𝙴 : {message.from_user.mention}\n╰⦿ᚐ𝚄𝚂𝙴𝚁 : @{message.from_user.username}\n╭⦿ᚐ𝙸𝙳 : <code>{message.from_user.id}</code>\n╰⦿ᚐ𝙱𝙸𝙾 : {usr.bio}\n╭⦿ᚐ𝙲𝙷𝙰𝚃 : {message.chat.title}\n╰⦿ᚐ𝙸𝙳.𝙶𝚁𝙾𝚄𝙿 : <code>{message.chat.id}</code>""", 
+    await message.reply_photo(photo,       caption=f"""⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱\n╭⦿ᚐ𝙽𝙰𝙼𝙴 : {message.from_user.mention}\n╰⦿ᚐ𝚄𝚂𝙴𝚁 : @{message.from_user.username}\n╭⦿ᚐ𝙸𝙳 : <code>{message.from_user.id}</code>\n╰⦿ᚐ𝙱𝙸𝙾 : {usr.bio}\n╭⦿ᚐ𝙲𝙷𝙰𝚃 : {message.chat.title}\n╰⦿ᚐ𝙸𝙳.𝙶𝚁𝙾𝚄𝙿 : <code>{message.chat.id}</code>\n⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱""", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -103,7 +103,7 @@ async def idjjdd(client, message):
     i = ["0","10", "15","20", "25","30","35", "40","45", "50","55", "60"," 66", "70","77", "80","85", "90","99", "100","1000" ]
     ik = random.choice(i)
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"نسبه جمالك يا مز انت \n│ \n╰⦿: {ik} %😂❤️", 
+    await message.reply_photo(photo,       caption=f"⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱\n\nنسبه جمالك يا مز انت \n│ \n╰⦿: {ik} %😂❤️\n\n⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
