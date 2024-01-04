@@ -14,7 +14,7 @@ from random import  choice, randint
 
                 
 @app.on_message(
-    filters.command(["يا سورس ","سورس","السورس","سورس مين","ادميلار","الادميلار"], "")
+    filters.command(["يا سورس ","سورس","السورس","سورس مين","ادميلار","الادميلار","ي سورس"], "")
     & filters.group
 )
 async def huhh(client: Client, message: Message):
@@ -130,7 +130,7 @@ async def huhh(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
+                   InlineKeyboardButton(
                         "⚓️ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ⚓️", url=f"https://t.me/ElaDmiLAr"),
                 ],
 
