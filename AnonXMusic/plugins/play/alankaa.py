@@ -19,16 +19,16 @@ from random import  choice, randint
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://t.me/ElaDmiLAr",
+        photo=f"https://t.me/eladmilar",
         caption=f"""⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱\n\nمرحبا بك عزيزي {message.from_user.mention} في قسم الادميلار سورس \n\n⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚓️ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ⚓️", url=f"https://t.me/ElaDmiLAr"),
+                        "⚓️ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ⚓️", url=f"https://t.me/eladmilar"),
                 ],[
                     InlineKeyboardButton(
-                        "⚓️ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ⚓️", url=f"https://t.me/AlaDmiLAr"),
+                        "⚓️ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ⚓️", url=f"https://t.me/aladmilar"),
                 ],
 
             ]
@@ -59,7 +59,7 @@ async def huhh(client: Client, message: Message):
                 ],[
                 
                     InlineKeyboardButton(
-                        "⚓️ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ⚓️", url=f"https://t.me/ElaDmiLAr"),
+                        "⚓️ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ⚓️", url=f"https://t.me/eladmilar"),
                 ],
 
             ]
@@ -86,7 +86,7 @@ async def huhh(client: Client, message: Message):
                 ],[
                 
                     InlineKeyboardButton(
-                        "⚓️ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ⚓️", url=f"https://t.me/ElaDmiLAr"),
+                        "⚓️ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ⚓️", url=f"https://t.me/eladmilar"),
                 ],
 
             ]
@@ -125,13 +125,13 @@ async def yas(client, message):
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://t.me/ElaDmiLAr",
+        photo=f"https://t.me/eladmilar",
         caption=f"""⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱\nمرحبا بك عزيزي {message.from_user.mention} في قسم الذكاء الاصتناعي الخاص بـ سورس الادميلار\n╮⦿ لتتمكن من استخدام اوامر الذكاء الاصتناعي اكتب \n╯⦿ بلاك + السؤال بالاسفل 👇\n⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                    InlineKeyboardButton(
-                        "⚓️ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ⚓️", url=f"https://t.me/ElaDmiLAr"),
+                        "⚓️ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ⚓️", url=f"https://t.me/eladmilar"),
                 ],
 
             ]
