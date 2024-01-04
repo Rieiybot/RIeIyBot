@@ -49,7 +49,7 @@ async def huhh(client: Client, message: Message):
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://t.me/ElaDmiLAr",
+        photo=f"https://t.me/eladmilar",
         caption=f"""⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱\n\nمرحبا بك عزيزي {message.from_user.mention} في قسم مطورين الاميلار ميوزك\n\nللتحدث مع مطورين اضغط علي الازرار بالاسفل👇\n\n⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱""",
         reply_markup=InlineKeyboardMarkup(
             [
