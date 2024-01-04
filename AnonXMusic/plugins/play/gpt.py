@@ -41,10 +41,10 @@ def reply_gpt(client, message):
         message_id = message.reply_to_message.message_id
     else:
         message_id = None
-    client.send_message(chat_id=chat_id, text=reply_text + "\n\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n╮⦿ للاستخدام مره اخري قم بستخدام الامر\n╯⦿ بلاك + السؤال", reply_to_message_id=message_id)
+    client.send_message(chat_id=chat_id, text=reply_text + "\n\n\n⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱\n\n╮⦿ للاستخدام مره اخري قم بستخدام الامر\n╯⦿ بلاك + السؤال", reply_to_message_id=message_id)
 
 
-@app.on_message(filters.command(["gpt","بلاك"], ""))
+@app.on_message(filters.command(["/gpt","بلاك"], ""))
 def reply(client, message):
     message.reply_text("استني بكتب ✍🏼....")
     reply_gpt(client, message)
