@@ -7,13 +7,13 @@ from AnonXMusic import app
 import re
 import sys
 
-GAME_MESSAGE = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n╮⦿ مرحبا بك عزيزي \n╯⎋  في قسم العاب بلاك بوت\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱"
+GAME_MESSAGE = "⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱\n\n╮⦿ مرحبا بك عزيزي \n╯⎋  في قسم العاب الادميلار\n\n⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱"
 GAME_BUTTONS = [
     [ 
         InlineKeyboardButton ('⦿ ¦ العاب 3D ¦ ⦿', callback_data= 'GAME1'),
         InlineKeyboardButton ('⦿ ¦ العاب بلاك ¦ ⦿', callback_data= 'GAME2'),
         ],[
-        InlineKeyboardButton ('父 𝗕𝗟𝗔𝗖𝗞 ࿈ 𝗕𝗢𝗧 父', url =f"https://t.me/BIACKB0T")              
+        InlineKeyboardButton ('⚓️ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ⚓️', url =f"https://t.me/ElaDmiLAr")              
                  ],[
                 InlineKeyboardButton(
                         "◁", callback_data="close"),
@@ -315,7 +315,7 @@ async def zohary(client: Client, message: Message):
 async def callback_query(client, CallbackQuery):
           if CallbackQuery.data == "GAME1":
             
-             GAME1_MESSAGE = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n╮⦿ مرحبا بك في قسم العاب 3D\n╯⎋ اختر ما تشاء من الازرار بالاسفل\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱"
+             GAME1_MESSAGE = "⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱\n\n╮⦿ مرحبا بك في قسم العاب 3D\n╯⎋ اختر ما تشاء من الازرار بالاسفل\n\n⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱"
 
              GAME1_BUTTONS = [
                  [
@@ -359,14 +359,14 @@ async def callback_query(client, CallbackQuery):
               )
           elif CallbackQuery.data == "GAME":
                
-               RETURN_GAME = "⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n╮⦿ مرحبا بك في قسم العاب بلاك بوت\n╯⎋ اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱" 
+               RETURN_GAME = "⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱\n\n╮⦿ مرحبا بك في قسم العاب الادميلار\n╯⎋ اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱" 
 
                RETURN_BUTTON = [
                     [ 
                       InlineKeyboardButton ('⦿ ¦ العاب 3D ¦ ⦿', callback_data= 'GAME1'),
                       InlineKeyboardButton ('⦿ ¦ العاب بلاك ¦ ⦿', callback_data= 'GAME2')
                       ],[
-        InlineKeyboardButton ('父 𝗕𝗟𝗔𝗖𝗞 ࿈ 𝗕𝗢𝗧 父', url =f"https://t.me/BIACKB0T")              
+        InlineKeyboardButton ('⚓️ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ⚓️', url =f"https://t.me/ElaDmiLAr")               
                  ],[
                 InlineKeyboardButton(
                         "◁", callback_data="close"),
@@ -383,7 +383,7 @@ async def callback_query(client, CallbackQuery):
 
                SORGAM_BUTTON = [
                     [ 
-                      InlineKeyboardButton ('父 𝗕𝗟𝗔𝗖𝗞 ࿈ 𝗕𝗢𝗧 父', url =f"https://t.me/BIACKB0T")
+                      InlineKeyboardButton ('⚓️ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ⚓️', url =f"https://t.me/ElaDmiLAr") 
                       ],[
                          InlineKeyboardButton ('◁', callback_data= 'GAME')
                     ]
