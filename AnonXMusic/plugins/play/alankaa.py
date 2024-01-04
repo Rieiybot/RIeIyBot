@@ -14,24 +14,21 @@ from random import  choice, randint
 
                 
 @app.on_message(
-    filters.command(["يا سورس ","سورس","السورس","بلاك بوت"], "")
+    filters.command(["يا سورس ","سورس","السورس","سورس مين","ادميلار","الادميلار"], "")
     & filters.group
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://t.me/BIACKB0T",
-        caption=f"""⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\nمرحبا بك عزيزي {message.from_user.mention} في قسم بلاگ بوت\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱""",
+        photo=f"https://t.me/ElaDmiLAr",
+        caption=f"""⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱\n\nمرحبا بك عزيزي {message.from_user.mention} في قسم الادميلار سورس \n\n⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "التحديثات", url=f"https://t.me/BIACKB0T"),
-                    InlineKeyboardButton(
-                        "المطور", url=f"https://t.me/SI_I_I"),
+                        "⚓️ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ⚓️", url=f"https://t.me/ElaDmiLAr"),
                 ],[
-                
                     InlineKeyboardButton(
-                        "父 𝗕𝗟𝗔𝗖𝗞 ࿈ 𝗕𝗢𝗧 父", url=f"https://t.me/BIACKB0T"),
+                        "⚓️ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ⚓️", url=f"https://t.me/AlaDmiLAr"),
                 ],
 
             ]
@@ -47,22 +44,22 @@ async def huhh(client: Client, message: Message):
 
 
 @app.on_message(
-    filters.command(["مطورين بلاك ","المطورين","مطورين"], "")
+    filters.command(["مطورين الادميلار","المطورين","مطورين"], "")
     & filters.group
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://t.me/BIACKB0T",
-        caption=f"""⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\nمرحبا بك عزيزي {message.from_user.mention} في قسم مطورين العنقاء ميوزك\n\nللتحدث مع مطورين اضغط علي الازرار بالاسفل👇\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱""",
+        photo=f"https://t.me/ElaDmiLAr",
+        caption=f"""⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱\n\nمرحبا بك عزيزي {message.from_user.mention} في قسم مطورين الاميلار ميوزك\n\nللتحدث مع مطورين اضغط علي الازرار بالاسفل👇\n\n⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "ѕʜɪᴋᴏ", url=f"https://t.me/si_i_i"),
+                        "⚓️ 𝗗𝗘𝗩 ⚓️", url=f"https://t.me/si_i_i"),
                 ],[
                 
                     InlineKeyboardButton(
-                        "父 𝗕𝗟𝗔𝗖𝗞 ࿈ 𝗕𝗢𝗧 父", url=f"https://t.me/BIACKB0T"),
+                        "⚓️ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ⚓️", url=f"https://t.me/ElaDmiLAr"),
                 ],
 
             ]
@@ -80,7 +77,7 @@ async def huhh(client: Client, message: Message):
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://t.me/glsatbot",
-        caption=f"""⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\nمرحبا بك عزيزي {message.from_user.mention} في قسم افضل و ائمن بوت لستخراج الجلسات للميوزك و التليثون\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱""",
+        caption=f"""⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱\n\nمرحبا بك عزيزي {message.from_user.mention} في قسم افضل و ائمن بوت لستخراج الجلسات للميوزك و التليثون\n\n⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -89,7 +86,7 @@ async def huhh(client: Client, message: Message):
                 ],[
                 
                     InlineKeyboardButton(
-                        "父 𝗕𝗟𝗔𝗖𝗞 ࿈ 𝗕𝗢𝗧 父", url=f"https://t.me/BIACKB0T"),
+                        "⚓️ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ⚓️", url=f"https://t.me/ElaDmiLAr"),
                 ],
 
             ]
@@ -109,7 +106,7 @@ async def yas(client, message):
     usr = await client.get_chat("si_i_i")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\n\n‍<b>╭⦿ᚐᴅᴇᴠ :</b> {name}\n<b>╰⦿ᚐᴜѕᴇʀ :</b> @{usr.username}\n<b>╭⦿ᚐɪᴅ :</b> <code>{usr.id}</code>\n<b>╰⦿ᚐʙɪᴏ :</b> {usr.bio}\n\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱", 
+    await message.reply_photo(photo,       caption=f"⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱\n\n‍<b>╭⦿ᚐᴅᴇᴠ :</b> {name}\n<b>╰⦿ᚐᴜѕᴇʀ :</b> @{usr.username}\n<b>╭⦿ᚐɪᴅ :</b> <code>{usr.id}</code>\n<b>╰⦿ᚐʙɪᴏ :</b> {usr.bio}\n\n⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -128,13 +125,13 @@ async def yas(client, message):
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://t.me/BIACKB0T",
-        caption=f"""⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱\nمرحبا بك عزيزي {message.from_user.mention} في قسم الذكاء الاصتناعي الخاص بي بلاك بوت\n╮⦿ لتتمكن من استخدام اوامر الذكاء الاصتناعي اكتب \n╯⦿ بلاك + السؤال بالاسفل 👇\n⊰•━━﴾ 父 𝗕𝗟𝗔𝗖𝗞 父 ﴿━━•⊱""",
+        photo=f"https://t.me/ElaDmiLAr",
+        caption=f"""⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱\nمرحبا بك عزيزي {message.from_user.mention} في قسم الذكاء الاصتناعي الخاص بـ سورس الادميلار\n╮⦿ لتتمكن من استخدام اوامر الذكاء الاصتناعي اكتب \n╯⦿ بلاك + السؤال بالاسفل 👇\n⊰•━━﴾ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ﴿━━•⊱""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "父 𝗕𝗟𝗔𝗖𝗞 ࿈ 𝗕𝗢𝗧 父", url=f"https://t.me/BIACKB0T"),
+                        "⚓️ 𝗘𝗟𝗔𝗗𝗠𝗜𝗟𝗔𝗥 ⚓️", url=f"https://t.me/ElaDmiLAr"),
                 ],
 
             ]
